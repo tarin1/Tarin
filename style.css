@@ -11,6 +11,16 @@ header{
      box-shadow: 5px 10px 30px rgb(53, 53, 53);
      z-index: 1;
 }
+::-webkit-scrollbar{
+     width: 10px;
+}
+::-webkit-scrollbar-thumb{
+     color: rgba(129, 129, 255, 0.5);
+}
+::-webkit-scrollbar-track{
+     color: rgb(243, 243, 255);
+}
+
 .logo{ 
      margin-left: 100px;
      margin-top: 20px;
